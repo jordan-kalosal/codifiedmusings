@@ -1,0 +1,18 @@
+# Permalinks
+permalink:        none
+relative_permalinks: true
+
+# Setup
+title:            Codified Musings
+tagline:          The personal blog of @JordanAHaines
+url:              http://codifiedmusings.com
+paginate:         1
+baseurl:          /
+author:
+  name:           Jordan Haines
+  url:            https://twitter.com/jordanahaines
+  email:          jordan@kalosal.com
+
+# Custom vars
+version:          1.0.0
+github:           https://github.com/jordan-kalosal

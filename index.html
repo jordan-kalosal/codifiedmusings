@@ -1,0 +1,40 @@
+---
+layout: default
+title: Home
+---
+
+{% include categories-banner.html %}
+
+<div class="row">
+    <div class="col-sm-12 col-md-10 col-lg-12 col-md-offset-1 col-lg-offset-0">
+        <div class="posts">
+          {% for post in site.posts %}
+          <article class="post">
+            <h1 class="post-title">
+              <a href="{{ post.url }}">
+                {{ post.title }}
+              </a>
+            </h1>
+            
+            <div class="time-container">
+                <time datetime="{{ post.date | date_to_xmlschema }}" class="post-date">{{ post.date | date_to_string }}</time>
+            </div>
+              {% if post.include_image == true %}
+            <div class="image-container">
+                <img src="/public/img/post/{{ post.image }}" alt="{{ post.title }}">  
+            </div>
+            <div class="copy-container">
+                {% else %}
+            <div class="copy-container full">
+                {% endif %}
+                <p>{{ post.excerpt }}</p>
+            </div>
+            <div class="clear"></div>
+          </article>
+          {% endfor %}
+        <div class="clear"></div>
+        </div>
+    </div>
+</div>
+<script src="https://code.jquery.com/jquery-1.11.2.min.js"></script>
+<script src="public/script/posts.js"></script>

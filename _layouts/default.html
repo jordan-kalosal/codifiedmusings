@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  {% include head.html %}
+
+  <body>
+
+    <div class="container-fluid content">
+        {% include mast.html %}
+      <main>
+        {{ content }}
+      </main>
+
+      <footer class="footer">
+        <small>
+          &copy; <time datetime="{{ site.time | date_to_xmlschema }}">{{ site.time | date: '%Y' }} Jordan A. Haines</time>. All rights reserved.
+        </small>
+      </footer>
+    </div>
+
+  </body>
+</html>
