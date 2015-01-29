@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <link href="http://gmpg.org/xfn/11" rel="profile">
+
+    <!-- Enable responsiveness on mobile devices-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+    <meta name="keywords" content="webdev, jekyll">
+    <meta name="description" content="How codifiedmusings was created with the Jekyll static site generator">
+
+    <title>
+        
+        Creating Codified Musings &middot; Codified Musings
+        
+    </title>
+    
+    <script src="https://code.jquery.com/jquery-1.11.2.min.js"></script>
+    <!-- CSS -->
+    <link rel="stylesheet" href="/public/css/syntax.css">
+    <link rel="stylesheet" href="/public/css/style.css">
+    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+    
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
+
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap-theme.min.css">
+
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
+
+    <!-- Icons -->
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/public/apple-touch-icon-precomposed.png">
+    <link rel="shortcut icon" href="/public/favicon.ico">
+    
+    <!-- Typekit -->
+    <script src="//use.typekit.net/bvu1aiv.js"></script>
+    <script>try{Typekit.load();}catch(e){}</script>
+    
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+      ga('create', 'UA-48162813-1', 'auto');
+      ga('send', 'pageview');
+
+    </script>
+    
+    <!-- RSS -->
+    <link rel="alternate" type="application/atom+xml" title="Codified Musings" href="/atom.xml">
+</head>
+
+
+  <body>
+
+    <div class="container-fluid content">
+        <div class="row mast-container">
+    <div class="col-md-6 col-md-offset-1 col-sm-12">
+        <div class="primary-title"></div>
+        <!-- 
+        <div class="secondary-title">
+            The personal blog of <a href="https://twitter.com/JordanAHaines" class="twitter-handle">@JordanAHaines</a>
+        </div> -->
+    </div>
+    <div class="col-md-3 col-md-offset-1">
+        <div class="quick-link-container hidden-sm hidden-md hidden-xs">
+            <ul>
+                <li><a href="/about.html"><i class="fa fa-question-circle"></i>&nbsp;&nbsp;&nbsp;About This Blog</a></li>
+                <li><a href="/contact.html"><i class="fa fa-bullhorn"></i>&nbsp;&nbsp;Contact Jordan</a> </li>
+                <li><a href="/resources.html"><i class="fa fa-code"></i>&nbsp;&nbsp;My Favorite Resources</a></li>
+            </ul>
+            <p class="twitter-container">
+                <a class="twitter-follow-button"
+                  href="https://twitter.com/jordanahaines"
+                  data-show-count="true"
+                  data-lang="en">
+                Follow @JordanAHaines
+                </a>
+            </p>
+        </div>
+    </div>
+</div>
+<script type="text/javascript">
+window.twttr = (function (d, s, id) {
+  var t, js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src= "https://platform.twitter.com/widgets.js";
+  fjs.parentNode.insertBefore(js, fjs);
+  return window.twttr || (t = { _e: [], ready: function (f) { t._e.push(f) } });
+}(document, "script", "twitter-wjs"));
+</script>
+      <main>
+        <div class="row categories-banner">
+    <div class="col-sm-12 cold-md-8 col-md-offset-1 col-lg-12">
+        <div class="row categories">
+            <div class="col-xs-3 col-md-1">
+                <a href="/">Home</a>
+            </div>
+            <div class="col-xs-3 hidden-xs col-md-2 hidden-sm hidden-md category-title-container">
+                <span class="category-title">Categories:</span>
+            </div>
+            <div class="col-xs-3 col-md-2 category-container economics">
+                <a href="/economics.html" class="category">Economics</a>
+            </div>
+            <div class="col-xs-3 col-md-2 category-container leadership">
+                <a href="/leadership.html" class="category">Leadership</a>
+            </div>
+            <div class="col-xs-3 col-md-2 category-container webdev">
+                <a href="/webdev.html" class="category">Web Dev</a>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="row categories-banner-blue"></div>
+
+<div class="row page-row actual-post-container">
+    <div class="col-sm-12 col-md-10 col-lg-8 col-md-offset-1 col-lg-offset-2">
+    <article class="page post">
+        <div class="row">
+            <div class="col-sm-12 post-title-container">
+                <h1 class="page-title">Creating Codified Musings</h1>
+                <time datetime="2015-01-15T00:00:00-05:00" class="page-date">15 Jan 2015</time>
+            </div>
+        </div>
+        <div class="row post-content-container">
+            <h1 id="creating-codified-musings">Creating Codified Musings</h1>
+<p><em>Code Download: <a href="https://github.com/jordan-kalosal/codifiedmusings">https://github.com/jordan-kalosal/codifiedmusings</a></em></p>
+
+<p>Though Codified Musings was first created nearly a year ago, I spent the last few months procrastinating a redesign and putting off creating new content.  Perhaps I was actually busy or perhaps I fell into the “I’ll start a blog and then never tough it after a month trap”, but having the opportunity to learn a new tool (<a href="jekyllrb.com">Jekyll</a>) and redesign the site has brought new purpose to this rhetorical hobby.</p>
+
+<h3 id="why-jekyll">Why Jekyll</h3>
+<p><em>(Skip this if you just want to learn how to use Jekyll)</em></p>
+
+<p>Let’s jump right into it.  Wordpress was proving much to cumbersome for my simple little blog.  Keeping all of the themes and plugins up to date was a hassle.  Having to break out the PHP books every time I wanted to make a substantial change quickly turned a new post into a weekend project.  It simply wasn’t working.  Because of its impracticality, the mere thought of spending any time learning any PHP still leaves me a little queasy.</p>
+
+<p>In comes Jekyll - a static site generator.  This means you don’t need any fancy webserver to host the site or database service (like MySQL) hogging resources on your server.  Instead, I just compile the site with Jekyll, upload it to a folder on my webserver and point my url at it (I feel like I’m 12 and making that first website again).  Serving a static site significantly reduced server load and (in my case) made it much easier to update the site.  I just make a change, recompile then upload the static HTML/javascript and asset files to the server.  When I first uploaded it, the <i>entire site</i> clocked in at just under 1MB.  Goodbye to all that Wordpress and MySQL bloat!</p>
+
+<p>I love being able to write my posts in markdown (which is then compiled into HTML by Jekyll).  Though I no longer have the feature-rich WYSIWYG Wordpress editor, I do get pretty syntax highlighting which was quite the pain to implement in Wordpress (and pretty much the only special formatting I use).</p>
+
+<h2 id="how-jekyll-really-works">How Jekyll Really Works</h2>
+<p>Let me start by saying that my explanation here will be intentionally brief and no match for the <a href="http://jekyllrb.com/docs/home/">official Jekyll documentation</a>.  However, to really explain how Codified Musings was created, a cursory understanding of Jekyll is in order.</p>
+
+<p>Jekyll takes posts (in the /_posts/ folder) and pages (markdown or html files in the root folder), pops them into pre-defined HTML layouts (in /_layouts/) and ultimately generates an entire static site.  That is, every page or post in the site is generated as a unqiue html page that can be accessed on a webserver. </p>
+
+<p>The <a href="https://github.com/Shopify/liquid/wiki">Liquid Templating System</a> is used to power Jekyll templates.  This allows us to display unique information such as a page’s title or the date a post was published.  More complex logic, such as if statements and for loops are also available in templates.  For example, my home page (index.html) uses a for loop to display recent posts.  Check out the <a href="http://jekyllrb.com/docs/templates/">Jekyll templating documentation</a> for a crash course on how to use variables and logic in templates.</p>
+
+<p>In short, here’s how I created Codified Musings as you see it today:</p>
+
+<h2 id="bring-in-the-posts">1) Bring in the Posts</h2>
+<p>The 5 (wow that’s a bit embarrasing) posts from the old Wordpress Codified Musings needed to migrate their way over to the new Jekyll site.  Doing this wasn’t hard.  Because there were so few posts, I literally copied &amp; pasted from the Wordpress editor into new markdown files.  The result was almost perfect!  I needed only add some <a href="http://daringfireball.net/projects/markdown/syntax#em">special markdown</a> for headings and the like.</p>
+
+<p>It’s important to name posts correctly.  The date is emedded in the posts’ file name so my “Hello World” post from March 1, 2014 becomes: <i>2014-03-01-hello-world.md</i> in the /_posts/ folder.</p>
+
+<h3 id="bring-in-the-pages">2) Bring in the Pages</h3>
+<p>In addition to the posts, there were three pages that existed on the old Worpress site: a resources page, contact page and about page.  To create pages in Jekyll, I just needed to create an HTML or markdown file in the site’s root folder.  I went ahead and created “contact.html”, “resources.html” and “about.html”.  For the about page, I was simply able to copy over the content from the Wordpress site.  The contact page uses <a href="https://getsimpleform.com/">Simple Form</a> to house a contact form that sends me an email when filled out.  Note that there is a specific “contact_complete.html” page that users are redirected to after completing the contact form.  The resources page has yet to be implemented (the easiest way, by far, to create a web page is to not create it).</p>
+
+<p>The awesome thing about creating HTML pages like this is what you create is exactly what will appear in the final site.  Don’t go too crazy though; it would be poor practice to write <i>all</i> the HTML for <i>each and every page</i>.  Instead, Jekyll provides two tools for reusing code: Includes and Layouts.</p>
+
+<h3 id="dont-exclude-the-includes">3) Don’t Exclude the Includes</h3>
+<p>Includes are reusable chunks of code (html/css/javascript) that will be used throughout the site for different types of content (say pages <i>and</i> posts).  These are like web gems (if you’re a Ruby person) or modules (if you hail from Python-land).  I created three includes for Codified Musings:</p>
+
+<h4 id="head-includesheadhtml">Head (/_includes/head.html)</h4>
+<div class="indent">
+This file contains all the goodies that go in the head tag including external javascript/css, analytics code, title, etc.  Notice that there is some conditional logic for the page title (leveraging the Liquid templating engine).
+</div>
+
+<h4 id="site-mast-includesmasthtml">Site Mast (/_includes/mast.html)</h4>
+<div class="indent">
+mast.html contains what you see as the header (or, as I call it - the mast - because I'm fancy) of this site.  This includes some cool <a href="http://getbootstrap.com/">bootstrap</a> logic (through css classes) to make the blog responsive.  This file also includes my Twitter widget.</div>
+
+<h4 id="categories-banner-includescategories-bannerhtml">Categories Banner (/_includes/categories-banner.html)</h4>
+<div class="indent">The categories banner (which has links to the three categories of posts) was created as an Include because I wasn't sure if it would be used on all pages.  That is, I wanted to <i>include</i> it on certain pages and exclude it on others.  Since many pages may use the same layout, I put this banner in an Include (and then proceeded to use it on every page).  Note that this banner also has some handy bootstrap logic to make it responsive.</div>
+
+<h3 id="lay-it-out">3) Lay it Out</h3>
+<p>Jekyll has these cool layouts, that determine the…er…layout of each page or post.  Layouts can inherit from other layouts.  For example, with Codified Musings, I have a default layout with three others that inherit from it:</p>
+
+<h4 id="default-layoutsdefaulthtml">Default (/_layouts/default.html)</h4>
+<div class="indent">All other layouts inherit from default.  Default is really sort of a shell for the entire site.  It uses the mast and head includes. At the bottom is an HTML footer.  Sandwiched between these is a single variable: {{ content }} which loads all of the content for any page that uses this layout (which is every page).</div>
+
+<h4 id="page-layoutspagehtml">Page (/_layouts/page.html)</h4>
+<div class="indent">This layout is used for pages (as oppose to posts) on the site such as the resources and contact page.  The only real thing that the page layout adds is a title (again, optimized with bootstrap).</div>
+
+<h4 id="category-layoutscategoryhtml">Category (/_layouts/category.html)</h4>
+<div class="indent">The Category layout is used solely on the three pages that display categories of posts: economics.html, webdev.html and leadership.html.  The next section discusses these sections in a bit more detail.</div>
+
+<h4 id="post-layoutsposthtml">Post (/_layouts/post.html)</h4>
+<div class="indent">Finally, the most used layout is the Post layout.  This layout is applied to all posts (including the one you're reading now).  The Post layout includes a title and date.  It also includes the social sharing links you'll find at the bottom of this page, coupled with a short listing of related posts.  Both of these elements proved pretty simple to create: pretty much every social media site allows for links to share content and the related posts are simply the 3 most recent posts in the same category as the one being displayed.</div>
+
+<h3 id="special-categories">4) Special Categories</h3>
+<p>Because I can’t easily make concrete decisions, I decided that this blog would have three categories of posts: leadership, economics and web development.  To lessen the confusion of my audience, I wanted to implemented individual pages that listed posts for each of the three categories.  In Wordpress this would have been accomplished by creating a categories.php template.  In Jekyll, it was almost as easy.  I had to create an individual page for each category, but was able to use the same <i>layout</i> for each page.</p>
+
+<p>You guessed it, this was the category.html layout.  I could have just as easily used the page layout; the only difference in the category layout is that the content takes up the whole screen on large devices.  The real magic for these special category pages is in the template logic that displays posts.  Take a look at this snippet from economics.html:</p>
+
+<p>{% for post in site.posts %} 
+{% if post.categories contains ‘economics’ %}</p>
+
+<p>This loops through all of the posts - just like on the home (index.html) page - except that only thoses posts with category ‘economics’ are displayed.  Other than that, the layout is exactly like the home page.</p>
+
+<h3 id="wrapping-up">Wrapping Up</h3>
+<p>And that’s all folks.  I started crafting this blog with Jekyll about a month ago and have no intention of turning back.  Jekyll is simple - I’ve used just about all of the features already.  But I like it that way.  I’m free to create content as I see fit, have full control over how my ideas are conveyed to a reader and don’t have to worry about complex backend development or configuration.  If you get a chance, give <a href="http://jekyllrb.com/">Jekyll</a> a shot.  Feel free to <a href="/contact.html">contact me</a> if you need any help!</p>
+
+        </div>    
+    </article>
+    </div>
+</div>
+<div class="row page-row post-footer-container">
+    <div class="col-sm-6 col-xs-12">
+        <div class="related-post-container">
+          <h2>Related Posts</h2>
+          <ul class="related-posts">
+            
+              <li>
+                <h3>
+                  <a href="/leadership/profound-leadership.html">
+                    Profound Leadership
+                  </a>
+                </h3>
+              </li>
+            
+              <li>
+                <h3>
+                  <a href="/leadership/mirrors.html">
+                    Mirrors
+                  </a>
+                </h3>
+              </li>
+            
+              <li>
+                <h3>
+                  <a href="/leadership/leading-by-example.html">
+                    Leading By Example
+                  </a>
+                </h3>
+              </li>
+            
+          </ul>
+        </div>
+    </div>
+    <div class="col-sm-6 col-xs-12">
+        <div class="post-share-container">
+            <h2>Share Post</h2>
+            <p>
+                <a target="_blank" href="http://twitter.com/share?text=Creating Codified Musings by @JordanAHaines"><i class="fa fa-twitter-square fa-4x"></i></a>
+                <a target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=http://codifiedmusings.com/leadership/creating-codified-musings.html&t=Creating Codified Musings"><i class="fa fa-facebook-square fa-4x"></i></a>
+                <a target="_blank" href="http://www.linkedin.com/shareArticle?mini=true&url=http://codifiedmusings.com/leadership/creating-codified-musings.html&title=Creating Codified Musings"><i class="fa fa-linkedin-square fa-4x"></i></a>
+            </p>
+        </div>
+    </div>
+</div>
+
+
+
+      </main>
+
+      <footer class="footer">
+        <small>
+          &copy; <time datetime="2015-01-29T15:08:28-05:00">2015 Jordan A. Haines</time>. All rights reserved.
+        </small>
+      </footer>
+    </div>
+
+  </body>
+</html>

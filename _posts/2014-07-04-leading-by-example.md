@@ -2,6 +2,7 @@
 layout: post
 title: Leading By Example
 categories: leadership
+pretty_categories: Leadership
 include_image: false
 
 excerpt: Those who lead by example are so often not <i>trying</i> to be leaders.  Instead, they are just trying to be friends, family, teachers or students.  They just happen to be so darn good at it that they inspire the rest of us to reflect, step up our own game and become better people in the process.

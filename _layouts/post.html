@@ -13,7 +13,9 @@ layout: default
                 <time datetime="{{ page.date | date_to_xmlschema }}" class="page-date">{{ page.date | date_to_string }}</time>
             </div>
         </div>
-        {{ content }}
+        <div class="row post-content-container">
+            {{ content }}
+        </div>    
     </article>
     </div>
 </div>

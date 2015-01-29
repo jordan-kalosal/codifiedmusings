@@ -177,6 +177,11 @@ body
             width: 55%;
             clear: both;
             margin-bottom: 15px;
+            .categories
+            {
+                float: right;
+                margin-right: 10px;
+            }
         }
         
         .image-container
@@ -332,4 +337,24 @@ footer
     background: url('../img/concrete_wall.png');
     text-align: center;
     color: white;
+}
+
+
+/* FORMATTING STUFF FOR POSTS */
+$indent: 12px;
+.indent, .indent-1
+{
+    padding-left: $indent;
+}
+.indent-2
+{
+    padding-left: 2*$indent;
+}
+.indent-3
+{
+    padding-left: 3*$indent;
+}
+.indent-4
+{
+    padding-left: 4*$indent;
 }

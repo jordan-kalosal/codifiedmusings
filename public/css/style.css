@@ -1,29 +1,29 @@
-/* line 6, /Users/jordan/Dropbox (Personal)/htdocs2/CodifiedMusings/public/css/style.scss */
+/* line 6, /Users/jordan/Dropbox (Personal)/CodifiedMusings/public/css/style.scss */
 html, body {
   margin: 0px;
   overflow-x: hidden;
   font-family: "proxima-nova"; }
 
-/* line 12, /Users/jordan/Dropbox (Personal)/htdocs2/CodifiedMusings/public/css/style.scss */
+/* line 12, /Users/jordan/Dropbox (Personal)/CodifiedMusings/public/css/style.scss */
 body {
   background: url('../img/graphy.png'); }
 
-/* line 17, /Users/jordan/Dropbox (Personal)/htdocs2/CodifiedMusings/public/css/style.scss */
+/* line 17, /Users/jordan/Dropbox (Personal)/CodifiedMusings/public/css/style.scss */
 .container-fluid {
   padding: 0px !important;
   margin: 0px !important; }
 
-/* line 23, /Users/jordan/Dropbox (Personal)/htdocs2/CodifiedMusings/public/css/style.scss */
+/* line 23, /Users/jordan/Dropbox (Personal)/CodifiedMusings/public/css/style.scss */
 .mast-container {
   padding-bottom: 30px; }
-  /* line 27, /Users/jordan/Dropbox (Personal)/htdocs2/CodifiedMusings/public/css/style.scss */
+  /* line 27, /Users/jordan/Dropbox (Personal)/CodifiedMusings/public/css/style.scss */
   .mast-container .primary-title {
     height: 200px;
     background-image: url('../img/codified_musings.png');
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain; }
-  /* line 37, /Users/jordan/Dropbox (Personal)/htdocs2/CodifiedMusings/public/css/style.scss */
+  /* line 37, /Users/jordan/Dropbox (Personal)/CodifiedMusings/public/css/style.scss */
   .mast-container .quick-link-container {
     background: url(../img/quick_links.png);
     background-position: center;
@@ -33,65 +33,65 @@ body {
     padding-top: 48px;
     color: white;
     font-size: 20px; }
-    /* line 48, /Users/jordan/Dropbox (Personal)/htdocs2/CodifiedMusings/public/css/style.scss */
+    /* line 48, /Users/jordan/Dropbox (Personal)/CodifiedMusings/public/css/style.scss */
     .mast-container .quick-link-container .twitter-container {
       padding-top: 15px;
       text-align: center; }
-    /* line 54, /Users/jordan/Dropbox (Personal)/htdocs2/CodifiedMusings/public/css/style.scss */
+    /* line 54, /Users/jordan/Dropbox (Personal)/CodifiedMusings/public/css/style.scss */
     .mast-container .quick-link-container a {
       color: white;
       transition: color 0.2s; }
-      /* line 57, /Users/jordan/Dropbox (Personal)/htdocs2/CodifiedMusings/public/css/style.scss */
+      /* line 57, /Users/jordan/Dropbox (Personal)/CodifiedMusings/public/css/style.scss */
       .mast-container .quick-link-container a:hover {
         color: #027da9;
         text-decoration: none; }
-    /* line 65, /Users/jordan/Dropbox (Personal)/htdocs2/CodifiedMusings/public/css/style.scss */
+    /* line 65, /Users/jordan/Dropbox (Personal)/CodifiedMusings/public/css/style.scss */
     .mast-container .quick-link-container li {
       list-style: none;
       padding-left: 20px; }
 
-/* line 73, /Users/jordan/Dropbox (Personal)/htdocs2/CodifiedMusings/public/css/style.scss */
+/* line 73, /Users/jordan/Dropbox (Personal)/CodifiedMusings/public/css/style.scss */
 .categories-banner {
   height: 55px;
   background: url('../img/concrete_wall.png'); }
-  /* line 78, /Users/jordan/Dropbox (Personal)/htdocs2/CodifiedMusings/public/css/style.scss */
+  /* line 78, /Users/jordan/Dropbox (Personal)/CodifiedMusings/public/css/style.scss */
   .categories-banner .category-title-container {
     text-align: right; }
-  /* line 83, /Users/jordan/Dropbox (Personal)/htdocs2/CodifiedMusings/public/css/style.scss */
+  /* line 83, /Users/jordan/Dropbox (Personal)/CodifiedMusings/public/css/style.scss */
   .categories-banner .categories {
     color: white;
     font-size: 28px;
     padding-top: 17px;
     text-align: center; }
-    /* line 90, /Users/jordan/Dropbox (Personal)/htdocs2/CodifiedMusings/public/css/style.scss */
+    /* line 90, /Users/jordan/Dropbox (Personal)/CodifiedMusings/public/css/style.scss */
     .categories-banner .categories a {
       color: white;
       transition: color 0.15s; }
-      /* line 95, /Users/jordan/Dropbox (Personal)/htdocs2/CodifiedMusings/public/css/style.scss */
+      /* line 95, /Users/jordan/Dropbox (Personal)/CodifiedMusings/public/css/style.scss */
       .categories-banner .categories a:hover {
         color: #027da9;
         text-decoration: none; }
-    /* line 102, /Users/jordan/Dropbox (Personal)/htdocs2/CodifiedMusings/public/css/style.scss */
+    /* line 102, /Users/jordan/Dropbox (Personal)/CodifiedMusings/public/css/style.scss */
     .categories-banner .categories .category-title {
       color: #027da9;
       opacity: 0;
       transition: opacity 0.4s; }
-  /* line 112, /Users/jordan/Dropbox (Personal)/htdocs2/CodifiedMusings/public/css/style.scss */
+  /* line 112, /Users/jordan/Dropbox (Personal)/CodifiedMusings/public/css/style.scss */
   .categories-banner:hover .category-title {
     opacity: 1; }
 
-/* line 119, /Users/jordan/Dropbox (Personal)/htdocs2/CodifiedMusings/public/css/style.scss */
+/* line 119, /Users/jordan/Dropbox (Personal)/CodifiedMusings/public/css/style.scss */
 .categories-banner-blue {
   height: 10px;
   background: #027da9; }
 
-/* line 124, /Users/jordan/Dropbox (Personal)/htdocs2/CodifiedMusings/public/css/style.scss */
+/* line 124, /Users/jordan/Dropbox (Personal)/CodifiedMusings/public/css/style.scss */
 .posts {
   width: 100%;
   padding: 35px;
   min-height: 600px;
   background: url('../img/light_alu.png'); }
-  /* line 131, /Users/jordan/Dropbox (Personal)/htdocs2/CodifiedMusings/public/css/style.scss */
+  /* line 131, /Users/jordan/Dropbox (Personal)/CodifiedMusings/public/css/style.scss */
   .posts .post {
     background: white;
     border-radius: 2px;
@@ -107,22 +107,22 @@ body {
     @media (max-width: 768px) {
       .posts .post {
         width: 100%; } }
-    /* line 149, /Users/jordan/Dropbox (Personal)/htdocs2/CodifiedMusings/public/css/style.scss */
+    /* line 149, /Users/jordan/Dropbox (Personal)/CodifiedMusings/public/css/style.scss */
     .posts .post:hover {
       border-color: #027da9; }
-    /* line 154, /Users/jordan/Dropbox (Personal)/htdocs2/CodifiedMusings/public/css/style.scss */
+    /* line 154, /Users/jordan/Dropbox (Personal)/CodifiedMusings/public/css/style.scss */
     .posts .post h1 {
       margin-top: 0px;
       font-size: 28px; }
-      /* line 158, /Users/jordan/Dropbox (Personal)/htdocs2/CodifiedMusings/public/css/style.scss */
+      /* line 158, /Users/jordan/Dropbox (Personal)/CodifiedMusings/public/css/style.scss */
       .posts .post h1 a {
         color: #333;
         transition: color 0.2s; }
-        /* line 161, /Users/jordan/Dropbox (Personal)/htdocs2/CodifiedMusings/public/css/style.scss */
+        /* line 161, /Users/jordan/Dropbox (Personal)/CodifiedMusings/public/css/style.scss */
         .posts .post h1 a:hover {
           color: #027da9;
           text-decoration: none; }
-    /* line 171, /Users/jordan/Dropbox (Personal)/htdocs2/CodifiedMusings/public/css/style.scss */
+    /* line 171, /Users/jordan/Dropbox (Personal)/CodifiedMusings/public/css/style.scss */
     .posts .post .time-container {
       background: #027da9;
       color: white;
@@ -131,61 +131,65 @@ body {
       width: 55%;
       clear: both;
       margin-bottom: 15px; }
-    /* line 182, /Users/jordan/Dropbox (Personal)/htdocs2/CodifiedMusings/public/css/style.scss */
+      /* line 180, /Users/jordan/Dropbox (Personal)/CodifiedMusings/public/css/style.scss */
+      .posts .post .time-container .categories {
+        float: right;
+        margin-right: 10px; }
+    /* line 187, /Users/jordan/Dropbox (Personal)/CodifiedMusings/public/css/style.scss */
     .posts .post .image-container {
       width: 30%;
       float: left; }
-      /* line 186, /Users/jordan/Dropbox (Personal)/htdocs2/CodifiedMusings/public/css/style.scss */
+      /* line 191, /Users/jordan/Dropbox (Personal)/CodifiedMusings/public/css/style.scss */
       .posts .post .image-container img {
         width: 100%; }
-    /* line 191, /Users/jordan/Dropbox (Personal)/htdocs2/CodifiedMusings/public/css/style.scss */
+    /* line 196, /Users/jordan/Dropbox (Personal)/CodifiedMusings/public/css/style.scss */
     .posts .post .copy-container {
       width: 65%;
       float: right; }
-      /* line 194, /Users/jordan/Dropbox (Personal)/htdocs2/CodifiedMusings/public/css/style.scss */
+      /* line 199, /Users/jordan/Dropbox (Personal)/CodifiedMusings/public/css/style.scss */
       .posts .post .copy-container.full {
         width: 100%; }
 
-/* line 202, /Users/jordan/Dropbox (Personal)/htdocs2/CodifiedMusings/public/css/style.scss */
+/* line 207, /Users/jordan/Dropbox (Personal)/CodifiedMusings/public/css/style.scss */
 .clear {
   width: 100%;
   height: 1px;
   clear: both; }
 
-/* line 208, /Users/jordan/Dropbox (Personal)/htdocs2/CodifiedMusings/public/css/style.scss */
+/* line 213, /Users/jordan/Dropbox (Personal)/CodifiedMusings/public/css/style.scss */
 .page-row {
   background: url('../img/light_alu.png'); }
 
-/* line 212, /Users/jordan/Dropbox (Personal)/htdocs2/CodifiedMusings/public/css/style.scss */
+/* line 217, /Users/jordan/Dropbox (Personal)/CodifiedMusings/public/css/style.scss */
 .page {
   width: 100%;
   padding: 35px;
   min-height: 600px; }
 
-/* line 218, /Users/jordan/Dropbox (Personal)/htdocs2/CodifiedMusings/public/css/style.scss */
+/* line 223, /Users/jordan/Dropbox (Personal)/CodifiedMusings/public/css/style.scss */
 .about {
   margin: 40px 0px;
   font-size: 18px; }
-  /* line 222, /Users/jordan/Dropbox (Personal)/htdocs2/CodifiedMusings/public/css/style.scss */
+  /* line 227, /Users/jordan/Dropbox (Personal)/CodifiedMusings/public/css/style.scss */
   .about .icon-container {
     color: #027da9;
     text-align: center; }
 
-/* line 230, /Users/jordan/Dropbox (Personal)/htdocs2/CodifiedMusings/public/css/style.scss */
+/* line 235, /Users/jordan/Dropbox (Personal)/CodifiedMusings/public/css/style.scss */
 .actual-post-container .post {
   font-size: 18px; }
-  /* line 232, /Users/jordan/Dropbox (Personal)/htdocs2/CodifiedMusings/public/css/style.scss */
+  /* line 237, /Users/jordan/Dropbox (Personal)/CodifiedMusings/public/css/style.scss */
   .actual-post-container .post blockquote {
     border-left-color: #027da9; }
-  /* line 237, /Users/jordan/Dropbox (Personal)/htdocs2/CodifiedMusings/public/css/style.scss */
+  /* line 242, /Users/jordan/Dropbox (Personal)/CodifiedMusings/public/css/style.scss */
   .actual-post-container .post p {
     margin-top: 25px; }
 
-/* line 243, /Users/jordan/Dropbox (Personal)/htdocs2/CodifiedMusings/public/css/style.scss */
+/* line 248, /Users/jordan/Dropbox (Personal)/CodifiedMusings/public/css/style.scss */
 .post-footer-container {
   padding-bottom: 40px; }
 
-/* line 247, /Users/jordan/Dropbox (Personal)/htdocs2/CodifiedMusings/public/css/style.scss */
+/* line 252, /Users/jordan/Dropbox (Personal)/CodifiedMusings/public/css/style.scss */
 .post-title-container, .page-title-container {
   background: url('../img/concrete_wall.png');
   border-radius: 3px;
@@ -193,19 +197,19 @@ body {
   color: white;
   padding-left: 0px;
   padding-bottom: 3px; }
-  /* line 256, /Users/jordan/Dropbox (Personal)/htdocs2/CodifiedMusings/public/css/style.scss */
+  /* line 261, /Users/jordan/Dropbox (Personal)/CodifiedMusings/public/css/style.scss */
   .post-title-container h1, .page-title-container h1 {
     margin-left: 20px;
     margin-bottom: 20px;
     text-align: center; }
-  /* line 263, /Users/jordan/Dropbox (Personal)/htdocs2/CodifiedMusings/public/css/style.scss */
+  /* line 268, /Users/jordan/Dropbox (Personal)/CodifiedMusings/public/css/style.scss */
   .post-title-container time, .page-title-container time {
     background: #027da9;
     font-size: 18px;
     padding: 5px 48px;
     border-bottom-left-radius: 3px; }
 
-/* line 271, /Users/jordan/Dropbox (Personal)/htdocs2/CodifiedMusings/public/css/style.scss */
+/* line 276, /Users/jordan/Dropbox (Personal)/CodifiedMusings/public/css/style.scss */
 .related-post-container, .post-share-container {
   text-align: center;
   width: 90%;
@@ -215,45 +219,62 @@ body {
   margin: auto;
   padding: 10px;
   background: url('../img/concrete_wall.png'); }
-  /* line 273, /Users/jordan/Dropbox (Personal)/htdocs2/CodifiedMusings/public/css/style.scss */
+  /* line 278, /Users/jordan/Dropbox (Personal)/CodifiedMusings/public/css/style.scss */
   .related-post-container h2, .post-share-container h2 {
     color: white; }
 
-/* line 288, /Users/jordan/Dropbox (Personal)/htdocs2/CodifiedMusings/public/css/style.scss */
+/* line 293, /Users/jordan/Dropbox (Personal)/CodifiedMusings/public/css/style.scss */
 .related-post-container a {
   color: #027da9;
   transition: color 0.4s; }
-  /* line 292, /Users/jordan/Dropbox (Personal)/htdocs2/CodifiedMusings/public/css/style.scss */
+  /* line 297, /Users/jordan/Dropbox (Personal)/CodifiedMusings/public/css/style.scss */
   .related-post-container a:hover {
     color: white;
     text-decoration: none; }
-/* line 298, /Users/jordan/Dropbox (Personal)/htdocs2/CodifiedMusings/public/css/style.scss */
+/* line 303, /Users/jordan/Dropbox (Personal)/CodifiedMusings/public/css/style.scss */
 .related-post-container ul {
   padding-left: 0px;
   margin-left: 0px; }
-  /* line 302, /Users/jordan/Dropbox (Personal)/htdocs2/CodifiedMusings/public/css/style.scss */
+  /* line 307, /Users/jordan/Dropbox (Personal)/CodifiedMusings/public/css/style.scss */
   .related-post-container ul li {
     list-style: none; }
 
-/* line 310, /Users/jordan/Dropbox (Personal)/htdocs2/CodifiedMusings/public/css/style.scss */
+/* line 315, /Users/jordan/Dropbox (Personal)/CodifiedMusings/public/css/style.scss */
 .post-share-container a {
   color: #027da9;
   transition: color 0.45s;
   margin: 0px 10px; }
-  /* line 314, /Users/jordan/Dropbox (Personal)/htdocs2/CodifiedMusings/public/css/style.scss */
+  /* line 319, /Users/jordan/Dropbox (Personal)/CodifiedMusings/public/css/style.scss */
   .post-share-container a:hover {
     color: white; }
 
-/* line 323, /Users/jordan/Dropbox (Personal)/htdocs2/CodifiedMusings/public/css/style.scss */
+/* line 328, /Users/jordan/Dropbox (Personal)/CodifiedMusings/public/css/style.scss */
 .contact textarea {
   height: 120px !important; }
 
-/* line 328, /Users/jordan/Dropbox (Personal)/htdocs2/CodifiedMusings/public/css/style.scss */
+/* line 333, /Users/jordan/Dropbox (Personal)/CodifiedMusings/public/css/style.scss */
 footer {
   width: 100%;
   padding: 10px 0px;
   background: url('../img/concrete_wall.png');
   text-align: center;
   color: white; }
+
+/* FORMATTING STUFF FOR POSTS */
+/* line 345, /Users/jordan/Dropbox (Personal)/CodifiedMusings/public/css/style.scss */
+.indent, .indent-1 {
+  padding-left: 12px; }
+
+/* line 349, /Users/jordan/Dropbox (Personal)/CodifiedMusings/public/css/style.scss */
+.indent-2 {
+  padding-left: 24px; }
+
+/* line 353, /Users/jordan/Dropbox (Personal)/CodifiedMusings/public/css/style.scss */
+.indent-3 {
+  padding-left: 36px; }
+
+/* line 357, /Users/jordan/Dropbox (Personal)/CodifiedMusings/public/css/style.scss */
+.indent-4 {
+  padding-left: 48px; }
 
 /*# sourceMappingURL=style.css.map */

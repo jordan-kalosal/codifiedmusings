@@ -18,6 +18,7 @@ title: Home
             
             <div class="time-container">
                 <time datetime="{{ post.date | date_to_xmlschema }}" class="post-date">{{ post.date | date_to_string }}</time>
+                <span class="categories">{{ post.pretty_categories }}</span>
             </div>
               {% if post.include_image == true %}
             <div class="image-container">

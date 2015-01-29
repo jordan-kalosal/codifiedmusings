@@ -2,6 +2,7 @@
 layout: post
 title: Profound Leadership
 categories: leadership
+pretty_categories: Leadership
 include_image: false
 
 excerpt: Sometimes being profound is seen as the sort of "magic" of leadership.  It's the ability to provide a voice when it's needed and a thought when it counts most.  The best teams will adapt to the style of a truly effective, profound leader in the same way that the leader's insights come to fit the team.
